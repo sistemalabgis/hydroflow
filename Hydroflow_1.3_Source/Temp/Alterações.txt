@@ -1,0 +1,47 @@
+Hydroflow 1.2
+=============
+
+Módulos alterados:
+  hydroflow.ui
+	Alterado o título do formulário princopal para "HydroFlow 1.2".
+
+  parametros.cpp
+  parametros.h
+	Incluida a referência do formulário principal como parametro no construtor da classe;
+	Alterar tipo dos nomes para QString;
+	Incluir o nome da nova bacia como atributo e criar os getter em setter.
+
+  hydroflowform.cpp
+	Incluido a referência do formulário principal no construtor do objeto Parametros.
+
+  shpconjuntofeicaodao.h
+	Criada a definição do método copiarArquivosConfiguracao() para copiar os arquivos .prj e .xml;
+	Incluido o parâmetro "nome da bacia" na definição do método gravarConjuntoFeicao(); NÃO!!!
+	Alterar tipo dos parametros de nome de arquivo para QString;
+
+  shpconjuntofeicaodao.cpp
+	Implementado o método copiarArquivosConfiguracao().
+	Incluido o parâmetro "nome da bacia" no método gravarConjuntoFeicao().
+	Incluida a chamada do método copiarArquivosConfiguracao() no método gravarConjuntoFeicao();
+	Alterar tipo dos parametros de nome de arquivo para QString;
+  
+  Utils.h e Utils.cpp
+	Alterar método converterString para converterQString.
+  
+  controle.h
+    Excluir atributo origem;
+	Excluir parametro do construtor da classe.
+	
+  controle.cpp
+  	Excluir parametro do construtor da classe;
+	Incluido o parâmetro "nome da bacia" na chamada do método gravarConjuntoFeicao();
+	Alterado o cursor durante o processamento da bacia.
+	Alterar referências à origem por Parametros::getOrigem()
+
+  ConjuntoFeicao.h e ConjuntoFeicao.cpp
+	Alterar tipo dos nomes para QString.
+
+Legenda:
+ * - Pendente;
+
+====================================================================================================

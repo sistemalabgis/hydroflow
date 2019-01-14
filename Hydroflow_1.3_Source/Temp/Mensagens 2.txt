@@ -1,0 +1,26 @@
+
+Erro! impossível continuar! Estrutura topológica não esperada para hierarquização. Os segmentos FID9999 e FID9999
+ estão conectados tanto ao sistema de drenagem da foz FID999 como também ao sistema da foz FID999.
+
+The segments FID9999 and FID9999
+ are connected to both the FID999 mouth drainage system and the FID999 mouth system
+
+The features FID9999 and FID9999
+ are connected to both the FID999 mouth drainage system and the FID999 mouth system
+
+Confira a topologia e execute o processamento novamente.
+
+
+==========================================================
+
+Erro! impossível continuar! Estrutura topológica não esperada para hierarquização.
+- A bacia da foz FID11 está conectada com a bacia da foz FID41.
+
+- Os sistemas de drenagem ASSICIADOS a foz FID999 e a foz FID999 estão conectados.
+  The drainage systems of the FID999 mouth and the FID999 mouth are connected
+
+
+
+
+Erro! impossível continuar! Estrutura topológica não esperada para hierarquização. Existem feições em ANEL (loop).
+Verifique as feições FID15 e FID115.

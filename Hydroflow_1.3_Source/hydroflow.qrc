@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imagens/hydroflow.gif</file>
+        <file>imagens/search.ico</file>
+        <file>imagens/Brasil.ico</file>
+        <file>imagens/ReinoUnido.ico</file>
+    </qresource>
+</RCC>

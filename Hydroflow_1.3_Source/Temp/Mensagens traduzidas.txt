@@ -1,0 +1,50 @@
+1) Situação: ocorreu um erro inesperado no programa;
+Mensagem:
+Houve um erro inesperado. O processamento foi interrompido!
+
+Inglês:
+There was an unexpected error. Processing aborted!
+
+2) Situação: feições em loop na bacia;
+Mensagem:
+Erro! impossível continuar! Estrutura topológica não esperada para hierarquização. Existem feições em anel (loop).
+Verifique as feições: FID99 e FID99.
+
+Confira a topologia e execute o processamento novamente.
+
+Inglês:
+Error! impossible to continue! Topological structure not expected for hierarchy. A loop was found.
+Check features: FID99 and FID99.
+
+Check out the topology and run the render again.
+
+3) Situação: bacias conectadas no arquivo;
+Mensagem:
+Erro! impossível continuar! Estrutura topológica não esperada para hierarquização. Os sistemas de drenagem associados a foz FID999 e a foz FID999 estão conectados.
+
+Confira a topologia e execute o processamento novamente.
+
+Inglês:
+Error! impossible to continue! Topological structure not expected for hierarchy. 
+The drainage systems with mouths FID999 and FID999 are connected.
+
+Check out the topology and run the render again.
+
+4) Situação: feição recebe mais de dois afluentes e o usuário selecionou inferir Ordens por Strahler;
+Mensagem:
+Aviso! Estrutura topológica não esperada para hierarquização Strahler. A Feição FID999 recebe mais de dois afluentes em um mesmo ponto."
+Os identificadores desses afluentes são:
+   1 - FID999
+   2 - FID999
+   3 - FID999
+
+O resultado final apresentará a classificação por Strahler relaxado.
+
+Inglês:
+Notice! Topological structure not expected for Strahler hierarchy. The FID999 feature receives more than two tributaries at one point.
+Tributaries identifiers are as follows:
+   1 - FID999
+   2 - FID999
+   3 - FID999
+
+The final result will present the classification by Lazy Strahler.
